@@ -53,9 +53,48 @@ All the activity in the Internet that involves two or more communicating remote 
 
 **Example** TCP protocol
 
-The clinet starts by sending a connection request. If the responded that means 
+The clinet starts by sending a connection request. If the responded that means
 
 - it understood the request
 - it's willing to respond (enough responses, time, auth).
 
 Now, The clinet can send thier http request.
+
+## Internet Strandards 
+
+- RFC (Request for Comments) each protocol has an RFC number
+  
+- IETF Internet Engineering Task Force who authorize RFC
+
+The internet is a **best effort** network, it means that the internet can never provide any garuntee on any network services.
+
+The edge injects packets into the core using an access networsk *bridge* like (DSL, mobile network).
+
+## Types of communication 
+
+### Client/Server model 
+
+- The most used one
+- The cllients don't talk directly to each other, the first client has to send first to the server and the server reply.
+- The client always iniates the communcation session. The server is always on waiting for requests.
+- This structure is infrastrcture inteensive, you have to spend alot of money to create the infrastructure.
+
+
+### Peer to peer model
+
+clients communicate with each other without a server directly.
+some apps are peer to peer, like BitTorrent.
+
+
+## Dial-up Modem
+
+- it uses an infrastructre that's already available (The telphone infrastrcture).
+- to start a connection you have to dial a number and wait for the connection to be established.
+- the telphone network is an analog network while the internet is a digital network, so we use 
+modem to transfer between analog and digital networks.
+- the voice bandwidth is 0 ~ 4KHZ Thus the internet speed is up t 56KPbs.
+- you can't surf and phone at the same time.
+
+
+
+
