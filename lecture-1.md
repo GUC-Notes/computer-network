@@ -95,6 +95,19 @@ modem to transfer between analog and digital networks.
 - the voice bandwidth is 0 ~ 4KHZ Thus the internet speed is up t 56KPbs.
 - you can't surf and phone at the same time.
 
+### DSL (Digital Subscriber Line)
+
+- it uses the entire bandwidth of the telphone infrastrcture.
+- spiltter is a filter it takes the frequency belongs to phone voice and sends it to the telephone.
+- the higher  frequency and sends that to DSL.
 
 
+### Residential access: cable modems
+Does not use telephone infrastructure Instead uses cable TV infrastructure
+
+
+### Wireless access networks
+
+- small range -> WIFI
+- wider -> mobile networks
 
