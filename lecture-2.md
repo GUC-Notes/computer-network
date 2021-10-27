@@ -91,14 +91,14 @@ WE can be considerd both Tire 2 and 3 ISP.
 1) when a packet is received by a router, the router will read part of that packet (the headear) contain information about the packet's destination and how to forward it.
 
 The headear contains the addresses, the router have to process these headears. 
-This is called **processing delay D <sub>p</sub> **.
+This is called **processing delay D <sub>p</sub>**.
 
 2) After packet has been processed it wait in a queue (buffer) to take its turn to be transmitted (modulated) . this delay is zero if there is np other packts waiting in the buffer . 
-This is called ** queuing delay D <sub> q </sub>  **
+This is called **queuing delay D <sub> q </sub>**
 
-3) for packts with length **L** to be transmitted through medium it should be modulated (converted from digital form to electrical form) . each link has it is own speed **R** measured in bits/sec . so this delay is equal to **L/R** and called ** Transmission delay D <sub>t </sub>
+3) for packts with length **L** to be transmitted through medium it should be modulated (converted from digital form to electrical form) . each link has it is own speed **R** measured in bits/sec . so this delay is equal to **L/R** and called **Transmission delay D <sub>t </sub>**
 
-4) After being transmited .packts have delay due to travelling into medium . this delay does not depend on the size of the packts but on the medium and distance .This delay is called ** Propagation delay D <sub> prob</sub> ** and equal to distance / speed
+4) After being transmited .packts have delay due to travelling into medium . this delay does not depend on the size of the packts but on the medium and distance .This delay is called **Propagation delay D <sub> prob</sub>** and equal to distance / speed
 
 ### Throughputs
   > the rate of which packts is transferred between sender and reciever 
