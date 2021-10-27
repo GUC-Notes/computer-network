@@ -62,3 +62,25 @@ Two types of routers uses packet switching.
 
 - "store and froward" is the most common one, the router needs to receive the packet and store it in its buffer, then it will transmit it to the next router.
 - "cut through" doesn't have to want unti the full packet received, it can transmit the packet as soon as it receives it.
+
+The buffer has fixed limited capacity, if the buffer is full, the packet is dropped.
+This called **congestion**.
+
+packet switching is 
+                    
+                    - great for bursty data
+                    - resource sharing
+                    - simple, no call setup
+
+## Network Structure 
+
+- **Tier 1 ISP** 
+the largest network and its job is to conenect contientes (under water submarine cables).
+
+- **Tier 2 ISP**
+the second largest network and its job is to conenect countries, get thier connectivity from Tier 1 ISP.
+
+**Tier 3 ISP** this is local ISP 
+
+WE can be considerd both Tire 2 and 3 ISP.
+
