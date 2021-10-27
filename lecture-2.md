@@ -84,3 +84,13 @@ the second largest network and its job is to conenect countries, get thier conne
 
 WE can be considerd both Tire 2 and 3 ISP.
 
+## Network metrics
+
+### Delay
+
+when a packet is received by a router, the router will read part of that packet (the headear) contain information about the packet's destination and how to forward it.
+
+The headear contains the addresses, the router have to process these headears. 
+This is called **processing delay**.
+
+
